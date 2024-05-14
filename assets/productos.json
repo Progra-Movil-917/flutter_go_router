@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Computadora",
+        "price": 1000,
+        "quantity": 10,
+        "color": "black",
+        "category": "electronics",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Fapple-macbook-air-2020&psig=AOvVaw3"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "price": 1200,
+        "quantity": 8,
+        "color": "silver",
+        "category": "electronics",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Fapple-macbook-pro-2020&psig=AOvVaw3"
+    },
+    {
+        "id": 3,
+        "name": "Tablet",
+        "price": 500,
+        "quantity": 15,
+        "color": "white",
+        "category": "electronics",
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Freviews%2Fapple-ipad-2020&psig=AOvVaw3"
+    }
+]

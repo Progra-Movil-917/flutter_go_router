@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_utilidades/screen/home/widget/welcome_text.dart';
+import 'package:flutter_app_utilidades/presentation/screen/home/widget/welcome_text.dart';
 import 'package:go_router/go_router.dart';
 
 class HomeScreen extends StatelessWidget {

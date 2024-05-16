@@ -17,4 +17,13 @@ class Producto {
         this.image,
     });
 
+    factory Producto.fromJson(Map<String, dynamic> json) => Producto(
+        id: json["id"],
+        name: json["name"],
+        price: json["price"],
+        quantity: json["quantity"],
+        color: json["color"],
+        category: json["category"],
+        image: json["image"],
+    );
 }

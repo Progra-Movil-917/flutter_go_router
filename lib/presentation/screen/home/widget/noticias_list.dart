@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app_utilidades/interface/noticia.dart';
-import 'package:flutter_app_utilidades/screen/home/widget/noticias_card.dart';
+import 'package:flutter_app_utilidades/domain/model/noticia.dart';
+import 'package:flutter_app_utilidades/presentation/screen/home/widget/noticias_card.dart';
 
 class NoticiasList extends StatelessWidget {
   final List<Noticia> noticias=List.empty(growable: true);

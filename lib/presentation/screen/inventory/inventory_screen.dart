@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_utilidades/presentation/screen/inventory/widgets/product_list.dart';
 import 'package:go_router/go_router.dart';
 
 class InventoryScreen extends StatelessWidget {
@@ -20,8 +21,8 @@ class InventoryScreen extends StatelessWidget {
             child:Image.asset('assets/CEUTEC-logo-01.png'),
         )
       ),
-      body: const Center(
-        child: Text('Inventory Screen'),
+      body: Center(
+        child: productList(),
       ),
     );
   }
